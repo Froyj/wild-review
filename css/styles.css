@@ -10,32 +10,67 @@ aside {
     margin-bottom: 30px;
 }
 
-.carousel {
-    margin-bottom: 30px;
+.containerContent {
+    margin-top: 30px;
 }
 
 .filmsBoxOffice {
     display: list-item;
 }
 
-footer {
-    font-family: 'Nunito', sans-serif;
-    background-color: black;
-    font-size: 18px;
-    padding: 10px;
-    font-weight: 500;
-    }
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+}
 
-footer a {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    }
+.carousel-indicators li {
+    display: inline-block;
+    height: 2vw;
+    width: 2vw;
+    min-width: 10px;
+    max-width: 15px;
+    min-height: 10px;
+    max-height: 15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #cccccc;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    min-width: 10px;
+    max-width: 15px;
+    min-height: 10px;
+    max-height: 15px;
+    margin: 10px;
+    background-color: rgb(136, 136, 136);
+}
 
-footer a:hover {
-    color: white;
-    }
+hr {    
+    height: 2px;
+    background-color: #333;
+}
 
-footer ul {
-    list-style: none;
-    }
+.textContainer {
+    height: 6em;
+    overflow: hidden;
+    line-height: 1em;  
+}
+
+.card-text {
+    color: red;
+}
+
+.card-img-overlay {
+    height: 75%;
+    margin: 0 auto 0 auto;
+}
+
+.card:hover .card-img-top {
+    filter: blur(3px);
+}
