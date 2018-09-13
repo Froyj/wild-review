@@ -1,0 +1,19 @@
+.main-page {
+    display: flex;
+    flex-direction: row;
+}
+aside {
+    width: 30%;
+}
+
+.card-deck {
+    margin-bottom: 30px;
+}
+
+.carousel {
+    margin-bottom: 30px;
+}
+
+.filmsBoxOffice {
+    display: list-item;
+}
