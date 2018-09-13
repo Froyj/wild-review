@@ -59,11 +59,15 @@ hr {
 .textContainer {
     height: 6em;
     overflow: hidden;
-    line-height: 1em;  
+    line-height: 1em;
+    display: none;
+    margin-top: 100%;
+    transform: translateY(-50%);
 }
 
 .card-text {
-    color: red;
+    color: white;
+    text-shadow: 1px 1px black;
 }
 
 .card-img-overlay {
@@ -72,5 +76,9 @@ hr {
 }
 
 .card:hover .card-img-top {
-    filter: blur(3px);
+    filter: blur(5px);
+}
+
+.card:hover .textContainer {
+    display: block;
 }
