@@ -82,3 +82,20 @@ hr {
 .card:hover .textContainer {
     display: block;
 }
+
+footer {
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 500;
+    }
+
+footer a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    }
+
+footer a:hover {
+    color: white;
+    }
