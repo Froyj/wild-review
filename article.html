@@ -179,35 +179,43 @@
       </article>
     </section>
 
-    <aside class="d-none d-sm-block bg-secondary">
-      <div id="social">
+    <aside class="d-none d-sm-block bg-secondary px-3">
+        <div class="social d-flex justify-content-between">
+          <img class= "img-responsive mx-auto my-5" src="images/facebook.png" alt="facebook" height=auto width="20%">
+          <img class= "img-responsive mx-auto my-5" src="images/twitter.png" alt="twitter" height=auto width="20%">
+          <img class= "img-responsive mx-auto my-5" src="images/Instagram.png" alt="insta" height=auto width="20%">
+          <img class= "img-responsive mx-auto my-5" src="images/youtube.png" alt="youtube" height=auto width="20%">
+        </div>
         <div id="newsletter">
-          <div class="form-group">
-            <label for="mailNews">Abonnez-vous à notre newsletter</label>
-            <input type="email" class="form-control" id="mailNews" placeholder="Votre email">
+          <div class="card form-group">
+            <div class="card-header">
+              Abonnez-vous à notre newsletter
+            </div>
+            <div class="card-body">
+              <input type="email" class="form-control" id="mailNews" placeholder="Votre email">
+            </div>
           </div>
         </div>
-      </div>
-      <div id="boxoffice">
-        <p>Box Office</p>
-        <hr>
-        <ol>
-          <li class="filmsBoxOffice">Film random - 230 456</li>
-          <li class="filmsBoxOffice">Un autre film - 165 432</li>
-          <li class="filmsBoxOffice">Encore un - 120 456</li>
-          <li class="filmsBoxOffice">Mission Impossible : Fallout - 100 456</li>
-          <li class="filmsBoxOffice">Les vieux fourneaux</li>
-        </ol>
-      </div>
-      <div id="coeur">
-        <p>Coup de coeur de la semaine</p>
-        <hr>
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe src="https://www.youtube.com/embed/pW312ecWZtY" frameborder="0" allow="autoplay; encrypted-media"
-            allowfullscreen></iframe>
+  
+        <div class="mt-5" id="boxoffice">
+          <p>Box Office</p>
+          <hr>
+          <ol>
+            <li class="filmsBoxOffice">Film random - 230 456</li>
+            <li class="filmsBoxOffice">Un autre film - 165 432</li>
+            <li class="filmsBoxOffice">Encore un - 120 456</li>
+            <li class="filmsBoxOffice">Mission Impossible : Fallout  - 100 456</li>
+            <li class="filmsBoxOffice">Les vieux fourneaux</li>
+          </ol>
         </div>
-      </div>
-    </aside>
+        <div class="mt-5" id="coeur">
+          <p>Coup de coeur de la semaine</p>
+          <hr>
+          <div class="text-center">
+          <div id="player"></div>
+          </div>
+        </div>
+      </aside>
   </section>
 
   <!-- Footer -->
