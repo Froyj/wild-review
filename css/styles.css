@@ -10,7 +10,7 @@ aside {
     width: 30%;
 }
 
-.card-deck {
+.containerCardDeck {
     margin-bottom: 30px;
 }
 
@@ -69,21 +69,21 @@ hr {
     transform: translateY(-50%);
 }
 
-.card-text {
+.cardText {
     color: white;
     text-shadow: 1px 1px black;
 }
 
-.card-img-overlay {
+.cardImageOverlay {
     height: 75%;
     margin: 0 auto 0 auto;
 }
 
-.card:hover .card-img-top {
+.carte:hover .carteImage {
     filter: blur(5px);
 }
 
-.card:hover .textContainer {
+.carte:hover .textContainer {
     display: block;
 }
 
