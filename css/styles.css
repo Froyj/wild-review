@@ -83,7 +83,7 @@ hr {
     transform: translateY(-50%);
 }
 
-.card-text {
+.texteArticle {
     color: black;}
 
 .cardImageOverlay {
@@ -101,7 +101,6 @@ hr {
 
 footer {
     font-family: 'Nunito', sans-serif;
-    background-color: black;
     font-size: 18px;
     font-weight: 500;
     }
