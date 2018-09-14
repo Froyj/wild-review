@@ -12,6 +12,10 @@ aside {
     color: white;
 }
 
+.buttonMoreArticle {
+    margin-bottom: 50px;
+}
+
 .containerCardDeck {
     margin-bottom: 30px;
 }
@@ -113,4 +117,12 @@ aside hr {
 
 .titreArticle {
     margin-bottom: -6px;
+}
+
+.headerNews {
+    background-color: #808080;
+}
+
+.bodyNews {
+    background-color: #e6e6e6;
 }
