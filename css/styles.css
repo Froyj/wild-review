@@ -79,10 +79,8 @@ hr {
     transform: translateY(-50%);
 }
 
-.cardText {
-    color: white;
-    text-shadow: 1px 1px black;
-}
+.card-text {
+    color: black;}
 
 .cardImageOverlay {
     height: 75%;
