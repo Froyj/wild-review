@@ -1,4 +1,4 @@
-.nav-link{
+.menu_item{
     color:#DDDDDD; 
 }
 
@@ -8,6 +8,8 @@
 }
 aside {
     width: 30%;
+    font-family: 'Nunito', sans-serif;
+    color: white;
 }
 
 .containerCardDeck {
@@ -103,3 +105,12 @@ footer a {
 footer a:hover {
     color: white;
     }
+
+aside hr {
+    height: 1px;
+    background-color: white;
+    }
+
+.titreArticle {
+    margin-bottom: -6px;
+}
