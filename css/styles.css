@@ -84,8 +84,12 @@ hr {
 }
 
 .card-text {
-    color: black;}
-
+    color: black;
+}
+.cardText {
+    color: white;
+    text-shadow: 1px 1px black;
+}
 .cardImageOverlay {
     height: 75%;
     margin: 0 auto 0 auto;
