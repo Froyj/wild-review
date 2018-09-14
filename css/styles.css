@@ -1,5 +1,13 @@
-.menu_item{
-    color:#DDDDDD; 
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link {
+    font-weight: bold;
+    color: #DDDDDD;
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #EEEEEE;    
 }
 
 .main-page {
