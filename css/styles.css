@@ -83,8 +83,7 @@ hr {
     transform: translateY(-50%);
 }
 
-.texteArticle {
-    color: black;}
+
 
 
 .cardText {
@@ -105,22 +104,6 @@ hr {
     display: block;
 }
 
-footer {
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    }
-
-footer a {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    }
-
-footer a:hover {
-    color: white;
-    }
-
 aside hr {
     height: 1px;
     background-color: white;
@@ -136,4 +119,121 @@ aside hr {
 
 .bodyNews {
     background-color: #e6e6e6;
+}
+
+/* Article */
+
+.tags, .boutons-commentaires {
+    background-color: #F6C900;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.petits-tittres {
+    color: #F6C900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card-article {
+    border: 1px solid #F6C900;
+}
+
+.texteArticle {
+    font-family: 'Open Sans', sans-serif;
+    color: #383C42;
+    text-align: justify;
+}
+
+.titre-article {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+}
+
+article h5, h4 {
+    font-family: 'Nunito', sans-serif;
+}
+
+article hr {
+    background-color: #F6C900;
+}
+
+.karine {
+    font-family: 'Nunito', sans-serif;
+}
+
+.texte-commentaire {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.texte-gras {
+    font-weight: bold;
+}
+
+.form {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titre-aside {
+    font-size: 1.2rem;
+    border-bottom: 2px solid white;
+}
+
+.presentationAuteur {
+    font-family: 'Open Sans', sans-serif;
+}
+
+blockquote::before {
+    content: open-quote;
+    font-size: 40px;
+    color: #F6C900;
+}
+blockquote::after {
+    content: close-quote;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 40px;
+    color: #F6C900;
+}
+
+.citation {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Footer */
+
+footer {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    }
+
+footer a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    }
+
+footer a:hover {
+    color: white;
+    }
+
+.menu-footer {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.rights {
+    color: #F6C900;
+    font-size: 1rem;
+}
+
+.logos-partenaires {
+    max-width: 100px;
+    height: auto;
+}
+
+.partenaires {
+    color: white;
+    font-size: 1.2rem;
 }
