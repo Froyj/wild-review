@@ -50,9 +50,7 @@ aside {
     margin-top: 30px;
 }
 
-.filmsBoxOffice {
-    display: list-item;
-}
+
 
 .carousel.inner {
     height: 20vh;
@@ -165,4 +163,12 @@ aside hr {
 
 .bodyNews {
     background-color: #e6e6e6;
+}
+
+.textFooter {
+    color: #f6c900;
+}
+
+.carte {
+    border: 1px solid #f6c900
 }
