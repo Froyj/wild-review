@@ -1,13 +1,31 @@
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .active >.nav-link, .navbar-dark .navbar-nav .nav-link {
     font-weight: bold;
     color: #DDDDDD;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Nunito', sans-serif;
-
 }
+
+@media only screen and (min-width: 1200px) {
+    .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link {
+        font-size: 1.3rem;
+    }
+}
+
+
 
 .navbar-dark .navbar-nav .active>.nav-link {
     color: #EEEEEE;    
+}
+
+.dropdown-item, .dropdown-menu {
+    background-color: #343a40;
+    color:#EEEEEE;
 }
 
 .main-page {
@@ -34,6 +52,10 @@ aside {
 
 .filmsBoxOffice {
     display: list-item;
+}
+
+.carousel.inner {
+    height: 20vh;
 }
 
 .carousel-control-prev-icon {
@@ -67,6 +89,13 @@ aside {
     max-height: 15px;
     margin: 10px;
     background-color: rgb(136, 136, 136);
+}
+
+.carousel-overlay {
+    position: relative;
+    font-size: 3em;
+    margin-top: -20vh;
+    top: 20vh;
 }
 
 hr {    
