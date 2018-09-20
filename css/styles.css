@@ -277,4 +277,34 @@ footer a:hover {
 
 .linkAsideSocial {
     min-width: 2em;
+
+/* Contact */
+
+.page-contact {
+    font-family: 'Nunito', sans-serif;
+}
+
+.contactez {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contributeur {
+    font-family: 'Open Sans', sans-serif;
+    color: #f6c900;
+}
+
+.bouton-page-contact {
+    background-color: black;
+    color: #F6C900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.form-control {
+    border: 1px solid #F6C900;
+}
+
+.barre {
+    padding: 50px;
 }
