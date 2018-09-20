@@ -140,15 +140,15 @@ hr {
 }
 
 .headerNews {
-    background-color: #DCDCDC;
-    color: white;
-    font-weight: bold;
-    border: 1px solid #383C42;
+    background-color: white;
+    color: #F6C900;
+    border: 1px solid white;
 }
 
 .bodyNews {
-    background-color: #e6e6e6;
-    border: 1px solid #383C42;
+    background-color: white;
+    color: #F6C900;
+    border-radius: 5px;
 }
 
 .card-footer {
@@ -283,10 +283,6 @@ footer a:hover {
     font-size: 1.2rem;
 }
 
-.bodyNews {
-    background-color: #e6e6e6;
-}
-
 .textFooter {
     color: #f6c900;
 }
@@ -328,4 +324,10 @@ footer a:hover {
 
 .barre {
     padding: 50px;
+}
+
+.ajout-commentaire {
+    width: 75%;
+    margin-bottom: 5%;
+    margin-left: 20%;
 }
