@@ -93,7 +93,7 @@
                 incapable de filmer la vie souterraine de quelques renards malicieux sans
                 y importer son reliquaire pop ; incapable, aussi, de filmer l’Inde ou un hôtel parisien sans en faire
                 les décors de sa petite collection d’obsessions.</p>
-              </p>
+
               <img class="card-img-top" src="images/moonrise-2.jpg" alt="Card image cap">
               <p class="card-text texteArticle mt-3">Mais à force de ne jamais dévier d’une formule qui a montré son
                 succès, Wes Anderson s’expose aussi à un procès en paresse et l’on a trop souvent cru distinguer dans
@@ -192,41 +192,24 @@
                 neque
                 tristique consequat. Curabitur volutpat orci sit amet quam congue, at tempor sapien lacinia. Sed a
                 ipsum eget velit aliquet placerat in et massa.</p>
+
               <div class="d-flex justify-content-end">
-                <button type="button" class="btn boutons-commentaires mb-3 mr-3">Répondre</button>
+                <button id="BtnAddComment" type="button" class="btn boutons-commentaires mb-3 mr-3" onclick="showArticle()">Répondre</button>
               </div>
-
-              <!--Block on click
-
-                <div class="d-flex justify-content-end">
-                  <button id="supprBtnAddComment" type="button" class="btn boutons-commentaires mb-3 mr-3">Répondre</button>
-                </div>
-
-                <div class="d-none" id="addComment">
-                  ---------content--------- + btn send
-                </div
-
-                <script>
-                  function showArticle() {
-                    document.getElementById('addComment').style.display = "block";
-                    document.getElementById('supprBtnAddComment').style.display = "none";
-                  }
-                </script>
-              
-              -->
-
+            </div>
+            <div style="display:none;" id="addComment">
+              aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
             </div>
           </div>
         </div>
       </article>
-      <aside class="d-block d-sm-block d-md-none offset-1 col-10 bg-secondary aside-cache mb-4">
+      <aside class="d-block d-sm-block d-md-none offset-1 col-10 aside-cache mb-4">
         <div class="row">
           <div class="col-xs-12 text-center mx-4 mt-4">
-            <p class="text-left">À propos de l'auteur</p>
-            <hr />
+            <p class="text-left titre-aside">À propos de l'auteur</p>
             <img alt="text" class="rounded-circle img-fluid text-center" src="images/ryan.jpg">
             <p class="mt-3 titreArticle">Michel Vaillant</p>
-            <small class="mt-3 petits-tittres">Rédacteur en chef</small>
+            <small class="mt-3 petits-titres-aside">Rédacteur en chef</small>
             <p class="presentationAuteur text-justify mt-3">Michel Vaillant, né à London, en Ontario, a été élevé dans
               une famille mormone. Son père est d'origine canadien-français. Il se destine d'abord à une carrière de
               danseur avant d'être engagé en 1993, à l'âge de 12 ans, sur The Mickey Mouse Club (All New Mickey Mouse
@@ -238,14 +221,14 @@
 
     <!-- Aside-->
 
-    <aside class="d-none d-sm-none d-md-block bg-secondary">
+    <aside class="d-none d-sm-none d-md-block">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center mx-4 mt-4">
             <p class="text-left titre-aside">À propos de l'auteur</p>
             <img alt="text" class="rounded-circle img-fluid text-center" src="images/ryan.jpg">
             <p class="mt-3 titreArticle">Michel Vaillant</p>
-            <small class="mt-3 petits-tittres">Rédacteur en chef</small>
+            <small class="mt-3 petits-titres-aside">Rédacteur en chef</small>
             <p class="presentationAuteur text-justify mt-3">Michel Vaillant, né à London, en Ontario, a été élevé dans
               une famille mormone. Son père est d'origine canadien-français. Il se destine d'abord à une carrière de
               danseur avant d'être engagé en 1993, à l'âge de 12 ans, sur The Mickey Mouse Club (All New Mickey Mouse
@@ -254,28 +237,28 @@
           <div class="d-none d-sm-block mx-4 mt-4">
             <p class="titre-aside">Du même auteur</p>
             <p class="titreArticle">[Critique] Titre de l'article</p>
-            <small class="petits-tittres">Publié le 22/04/2018</small>
+            <small class="petits-titres-aside">Publié le 22/04/2018</small>
             <p class="titreArticle">[Dossier] Titre de l'article</p>
-            <small class="petits-tittres">Publié le 22/04/2018</small>
+            <small class="petits-titres-aside">Publié le 22/04/2018</small>
             <p class="titreArticle">[Interview] Titre de l'article</p>
-            <small class="petits-tittres">Publié le 22/04/2018</small>
+            <small class="petits-titres-aside">Publié le 22/04/2018</small>
             <p class="titreArticle">[Critique] Titre de l'article</p>
-            <small class="petits-tittres">Publié le 22/04/2018</small>
+            <small class="petits-titres-aside">Publié le 22/04/2018</small>
             <p class="titreArticle">[Critique] Titre de l'article</p>
-            <small class="petits-tittres">Publié le 22/04/2018</small>
+            <small class="petits-titres-aside">Publié le 22/04/2018</small>
           </div>
           <div class="d-none d-sm-block mx-4 mt-4">
             <p class="titre-aside">Articles similaires</p>
             <p class="titreArticle">[Critique] Titre de l'article</p>
-            <small class="petits-tittres">Publié le 22/04/2018</small>
+            <small class="petits-titres-aside">Publié le 22/04/2018</small>
             <p class="titreArticle">[Dossier] Titre de l'article</p>
-            <small class="petits-tittres">Publié le 22/04/2018</small>
+            <small class="petits-titres-aside">Publié le 22/04/2018</small>
             <p class="titreArticle">[Interview] Titre de l'article</p>
-            <small class="petits-tittres">Publié le 22/04/2018</small>
+            <small class="petits-titres-aside">Publié le 22/04/2018</small>
             <p class="titreArticle">[Critique] Titre de l'article</p>
-            <small class="petits-tittres">Publié le 22/04/2018</small>
+            <small class="petits-titres-aside">Publié le 22/04/2018</small>
             <p class="titreArticle">[Critique] Titre de l'article</p>
-            <small class="petits-tittres">Publié le 22/04/2018</small>
+            <small class="petits-titres-aside">Publié le 22/04/2018</small>
           </div>
         </div>
       </div>
@@ -298,7 +281,8 @@
           <div><img alt="" class="img-fluid" src="images/wild-review.png"></div>
           <div>
             <nav class="d-flex flex-row justify-content-center mt-1">
-              <a class="nav-link" href="https://facebook.com"><img alt="" class="img-fluid" src="images/facebook.png" width="150%"></a>
+              <a class="nav-link" href="https://facebook.com"><img alt="" class="img-fluid" src="images/facebook.png"
+                  width="150%"></a>
               <a class="nav-link" href="https://twitter.com"><img alt="" class="img-fluid" src="images/twitter.png"></a>
               <a class="nav-link" href="https://instagram.com"><img alt="" class="img-fluid" src="images/Instagram.png"></a>
               <a class="nav-link" href="https://youtube.com"><img alt="" class="img-fluid" src="images/youtube.png"></a>
@@ -327,6 +311,12 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+  <script>
+    function showArticle() {
+      document.getElementById('addComment').style.display = "block";
+      document.getElementById('BtnAddComment').style.display = "none";
+    }
+  </script>
 </body>
 
 </html>
