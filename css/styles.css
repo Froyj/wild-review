@@ -33,7 +33,8 @@
 aside {
     width: 30%;
     font-family: 'Nunito', sans-serif;
-    color: white;
+    color: #383C42;
+    background-color: #DCDCDC;
 }
 
 .buttonMoreArticle {
@@ -108,8 +109,13 @@ hr {
     transform: translateY(-50%);
 }
 
+.entree {
+    color: white;
+}
 
-
+.crochets {
+    color: #F6C900;
+}
 
 .cardText {
     color: white;
@@ -129,22 +135,31 @@ hr {
     display: block;
 }
 
-aside hr {
-    height: 1px;
-    background-color: white;
-    }
-
 .titreArticle {
     margin-bottom: -6px;
 }
 
 .headerNews {
-    background-color: #808080;
+    background-color: #DCDCDC;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #383C42;
 }
 
 .bodyNews {
     background-color: #e6e6e6;
+    border: 1px solid #383C42;
 }
+
+.card-footer {
+    background-color: white;
+    color: white;
+}
+
+.slash {
+    color: #383C42;
+}
+
 
 /* Article */
 
@@ -167,6 +182,11 @@ aside hr {
     font-family: 'Open Sans', sans-serif;
     color: #383C42;
     text-align: justify;
+}
+
+.petits-titres-aside {
+    color: white;
+    font-weight: bold;
 }
 
 .titre-article {
@@ -200,7 +220,7 @@ article hr {
 
 .titre-aside {
     font-size: 1.2rem;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #383C42;
 }
 
 .presentationAuteur {
@@ -277,6 +297,7 @@ footer a:hover {
 
 .linkAsideSocial {
     min-width: 2em;
+}
 
 /* Contact */
 
