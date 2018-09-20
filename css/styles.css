@@ -173,10 +173,13 @@ hr {
     color: white;
 }
 
-.slash {
+.slash, a{
     color: #383C42;
 }
 
+a:hover {
+    color: rgb(240, 196, 2);
+}
 
 /* Article */
 
@@ -313,6 +316,23 @@ footer a:hover {
     min-width: 2em;
 }
 
+footer .nav-link:hover {
+    color: #F6C900;
+}
+
+@media only screen and (min-width: 320px) {
+    footer .nav {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    footer .nav .nav-link {
+        text-align: left ;
+    }
+}
+
+
 /* Contact */
 
 .page-contact {
@@ -349,3 +369,4 @@ footer a:hover {
     margin-bottom: 5%;
     margin-left: 20%;
 }
+
