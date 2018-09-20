@@ -93,7 +93,7 @@
                 incapable de filmer la vie souterraine de quelques renards malicieux sans
                 y importer son reliquaire pop ; incapable, aussi, de filmer l’Inde ou un hôtel parisien sans en faire
                 les décors de sa petite collection d’obsessions.</p>
-              </p>
+
               <img class="card-img-top" src="images/moonrise-2.jpg" alt="Card image cap">
               <p class="card-text texteArticle mt-3">Mais à force de ne jamais dévier d’une formule qui a montré son
                 succès, Wes Anderson s’expose aussi à un procès en paresse et l’on a trop souvent cru distinguer dans
@@ -192,29 +192,13 @@
                 neque
                 tristique consequat. Curabitur volutpat orci sit amet quam congue, at tempor sapien lacinia. Sed a
                 ipsum eget velit aliquet placerat in et massa.</p>
+
               <div class="d-flex justify-content-end">
-                <button type="button" class="btn boutons-commentaires mb-3 mr-3">Répondre</button>
+                <button id="BtnAddComment" type="button" class="btn boutons-commentaires mb-3 mr-3" onclick="showArticle()">Répondre</button>
               </div>
-
-              <!--Block on click
-
-                <div class="d-flex justify-content-end">
-                  <button id="supprBtnAddComment" type="button" class="btn boutons-commentaires mb-3 mr-3">Répondre</button>
-                </div>
-
-                <div class="d-none" id="addComment">
-                  ---------content--------- + btn send
-                </div
-
-                <script>
-                  function showArticle() {
-                    document.getElementById('addComment').style.display = "block";
-                    document.getElementById('supprBtnAddComment').style.display = "none";
-                  }
-                </script>
-              
-              -->
-
+            </div>
+            <div style="display:none;" id="addComment">
+              aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
             </div>
           </div>
         </div>
@@ -297,7 +281,8 @@
           <div><img alt="" class="img-fluid" src="images/wild-review.png"></div>
           <div>
             <nav class="d-flex flex-row justify-content-center mt-1">
-              <a class="nav-link" href="https://facebook.com"><img alt="" class="img-fluid" src="images/facebook.png" width="150%"></a>
+              <a class="nav-link" href="https://facebook.com"><img alt="" class="img-fluid" src="images/facebook.png"
+                  width="150%"></a>
               <a class="nav-link" href="https://twitter.com"><img alt="" class="img-fluid" src="images/twitter.png"></a>
               <a class="nav-link" href="https://instagram.com"><img alt="" class="img-fluid" src="images/Instagram.png"></a>
               <a class="nav-link" href="https://youtube.com"><img alt="" class="img-fluid" src="images/youtube.png"></a>
@@ -326,6 +311,12 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+  <script>
+    function showArticle() {
+      document.getElementById('addComment').style.display = "block";
+      document.getElementById('BtnAddComment').style.display = "none";
+    }
+  </script>
 </body>
 
 </html>
