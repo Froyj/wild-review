@@ -17,8 +17,6 @@
     }
 }
 
-
-
 .navbar-dark .navbar-nav .active>.nav-link {
     color: #EEEEEE;    
 }
@@ -275,4 +273,8 @@ footer a:hover {
 
 .carte {
     border: 1px solid #f6c900;
+}
+
+.linkAsideSocial {
+    min-width: 2em;
 }
