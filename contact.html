@@ -10,19 +10,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Police -->
+    <style>@import url('https://fonts.googleapis.com/css?family=Nunito');</style>
+    <style>@import url('https://fonts.googleapis.com/css?family=Open+Sans');</style>
+
     <title>Wild Review</title>
 </head>
 
 <body class="bg-white">
     <header class="container-expand-lg">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand pl-4" href="#"><img src="images/wild-review.png"></a>
+            <a class="navbar-brand pl-xs-0 pl-md-4" href="#"><img src="images/wild-review.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav nav-fill">
                     <li class="nav-item active px-4">
                         <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
                     </li>
@@ -54,16 +59,16 @@
                     <li class="nav-item px-4">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <div class="input-group pr-4">
-                        <input type="search" class="form-control" placeholder="Search" aria-label="Search"
-                            aria-describedby="button-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary my-sm-0" type="submit" id="button-addon2"><img src="images/magnify-white.png"></button>
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="input-group pr-4">
+                            <input type="search" class="form-control" placeholder="Search" aria-label="Search"
+                                aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary my-sm-0" type="submit" id="button-addon2"><img src="images/magnify-white.png"></button>
+                            </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </ul>
             </div>
         </nav>
     </header>
@@ -82,7 +87,7 @@
                             placeholder="E-mail">
                         <textarea class="form-control my-4" id="message" placeholder="Message"></textarea>
                     </div>
-                    <button type="submit" class="btn bouton-page-contact">Envoyer</button>
+                    <button type="submit" class="btn boutons-commentaires">Envoyer</button>
                 </form>
             </div>
             <div class="col-xs-12 col-lg-3 py-4 mx-2">
@@ -96,14 +101,13 @@
                     <div class="form-group ">
                         <input type="text" class="form-control my-4" id="mail" aria-describedby="emailHelp" placeholder="E-mail">
                     </div>
-                    <button type="submit" class="btn bouton-page-contact">Je m'abonne</button>
+                    <button type="submit" class="btn boutons-commentaires">Je m'abonne</button>
                 </form>
             </div>
         </div>
     </section>
-
     <footer>
-        <div class="container-fluid pt-3 bg-dark">
+        <div class="container-fluid pt-3 bg-dark pb-3">
             <div class="row justify-content-between">
                 <div class="col-xs-12 col-sm-3 mt-2">
                     <nav class="nav d-flex flex-column menu-footer">

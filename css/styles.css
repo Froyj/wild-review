@@ -1,11 +1,33 @@
+@font-face{
+    font-family: 'Nunito';
+    src: url('https://fonts.googleapis.com/css?family=Nunito');
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+}
+
+
 .navbar-dark .navbar-nav .active >.nav-link, .navbar-dark .navbar-nav .nav-link {
     font-weight: bold;
-    color: #DDDDDD;
     font-size: 1rem;
     font-family: 'Nunito', sans-serif;
 }
 
-@media only screen and (min-width: 1200px) {
+.navbar-dark .navbar-nav .nav-link {
+    color: #DDDDDD;
+}
+
+.navbar-dark .navbar-nav .active >.nav-link {
+    color: #FFFFFF;    
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #F6C900;
+}
+
+
+@media only screen and (min-width: 1300px) {
     .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link {
         font-size: 1.1rem;
     }
@@ -17,9 +39,6 @@
     }
 }
 
-.navbar-dark .navbar-nav .active>.nav-link {
-    color: #EEEEEE;    
-}
 
 .dropdown-item, .dropdown-menu {
     background-color: #343a40;
@@ -48,8 +67,6 @@ aside {
 .containerContent {
     margin-top: 30px;
 }
-
-
 
 .carousel.inner {
     height: 20vh;
@@ -140,15 +157,15 @@ hr {
 }
 
 .headerNews {
-    background-color: #DCDCDC;
-    color: white;
-    font-weight: bold;
-    border: 1px solid #383C42;
+    background-color: white;
+    color: #F6C900;
+    border: 1px solid white;
 }
 
 .bodyNews {
-    background-color: #e6e6e6;
-    border: 1px solid #383C42;
+    background-color: white;
+    color: #F6C900;
+    border-radius: 5px;
 }
 
 .card-footer {
@@ -283,16 +300,13 @@ footer a:hover {
     font-size: 1.2rem;
 }
 
-.bodyNews {
-    background-color: #e6e6e6;
-}
-
 .textFooter {
     color: #f6c900;
 }
 
 .carte {
     border: 1px solid #f6c900;
+    margin: 4% 8%;
 }
 
 .linkAsideSocial {
@@ -328,4 +342,10 @@ footer a:hover {
 
 .barre {
     padding: 50px;
+}
+
+.ajout-commentaire {
+    width: 75%;
+    margin-bottom: 5%;
+    margin-left: 20%;
 }

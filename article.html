@@ -21,7 +21,7 @@
 <body class="bg-white">
   <header class="container-expand-lg">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand pl-4" href="#"><img src="images/wild-review.png"></a>
+      <a class="navbar-brand pl-xs-0 pl-md-4" href="#"><img src="images/wild-review.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -187,18 +187,29 @@
             <div>
               <h5 class="mt-5 ml-3">Derniers commentaires</h5>
               <p class="ml-4 mt-4 karine">Karine - <small class="petits-tittres">Il y a 42 minutes</small></p>
-              <p class="ml-4 texte-commentaire">Quisque et risus fringilla, tristique nibh sit amet, imperdiet risus.
-                Aliquam id elit id
-                neque
-                tristique consequat. Curabitur volutpat orci sit amet quam congue, at tempor sapien lacinia. Sed a
-                ipsum eget velit aliquet placerat in et massa.</p>
-
+              <p class="ml-4 mr-3 texte-commentaire">Une très belle histoire d'amour, une photographie juste magnifique, des
+                acteurs exceptionnels une musique superbe et une réalisation intéressante. L'émotion est omniprésente,
+                et je dois l'avouer, mais fais pleurer plusieurs fois :'). Mais malheureusement, certaines scènes
+                inutiles (le mort du chien ???!), et des longueurs empêche le film d'être un chef d'œuvre. Mais sa ne
+                l'empêche pas d'être un excellent film a découvrir très vite pour tous les adeptes de poésie. Je suis
+                conquis. Du grand Wes Anderson</p>
               <div class="d-flex justify-content-end">
                 <button id="BtnAddComment" type="button" class="btn boutons-commentaires mb-3 mr-3" onclick="showArticle()">Répondre</button>
               </div>
             </div>
-            <div style="display:none;" id="addComment">
-              aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+            <div style="display:none;" id="addComment" class="ajout-commentaire">
+              <form>
+                <div class="form-group">
+                  <label for="emailCom"></label>
+                  <input type="email" class="form-control" id="emailCom" placeholder="nom@example.com">
+                  <label for="nomCom"></label>
+                  <input type="text" class="form-control" id="nomCom" placeholder="nom">
+                  <textarea class="form-control mt-4" id="texteCom" rows="3"></textarea>
+                </div>
+              </form>
+              <div class="d-flex justify-content-end">
+                <button type="button" class="btn boutons-commentaires">Répondre</button>
+              </div>
             </div>
           </div>
         </div>
