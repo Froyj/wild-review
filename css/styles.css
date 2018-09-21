@@ -49,6 +49,11 @@
     display: flex;
     flex-direction: row;
 }
+
+section#contact{
+    min-height : 68vh;
+}
+
 aside {
     width: 30%;
     font-family: 'Nunito', sans-serif;
@@ -358,6 +363,7 @@ footer a {
 footer .nav-link:hover {
     color: #F6C900;
 }
+
 
 @media only screen and (min-width: 320px) {
     footer .nav {
