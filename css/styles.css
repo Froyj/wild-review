@@ -26,21 +26,19 @@
     color: #F6C900;
 }
 
-
 @media only screen and (min-width: 992px) {
     .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link {
         margin:0 0.8em;
+        font-size: 1rem;
     }
 }
-
 
 @media only screen and (min-width: 1300px) {
     .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link {
-        margin:0 2em;
+        margin:0 1.7em;
+        font-size: 0.9rem;
     }
 }
-
-
 
 .dropdown-item, .dropdown-menu {
     background-color: #343a40;
