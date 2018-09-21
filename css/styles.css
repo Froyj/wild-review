@@ -407,7 +407,7 @@ footer .nav-link:hover {
 
 .facebook {
     position:relative;
-    background-image: url("images/facebook.svg");
+    background-image: url("../images/facebook.svg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 42px;
@@ -420,7 +420,7 @@ footer .nav-link:hover {
     width:100%;
     height:100%;
     border-radius: 50%;
-    background-image: url("images/facebookv2.svg");
+    background-image: url("../images/facebookv2.svg");
     background-repeat: no-repeat;
     background-size: contain;
     position:absolute;
@@ -430,7 +430,7 @@ footer .nav-link:hover {
 
 .twitter {
     position:relative;
-    background-image: url("images/twitter.svg");
+    background-image: url("../images/twitter.svg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 42px;
@@ -443,7 +443,7 @@ footer .nav-link:hover {
     width:100%;
     height:100%;
     border-radius: 50%;
-    background-image: url("images/twitterv2.svg");
+    background-image: url("../images/twitterv2.svg");
     background-repeat: no-repeat;
     background-size: contain;
     position:absolute;
@@ -453,7 +453,7 @@ footer .nav-link:hover {
 
 .instagram {
     position:relative;
-    background-image: url("images/instagram.svg");
+    background-image: url("../images/instagram.svg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 42px;
@@ -466,7 +466,7 @@ footer .nav-link:hover {
     width:100%;
     height:100%;
     border-radius: 50%;
-    background-image: url("images/instagramv2.svg");
+    background-image: url("../images/instagramv2.svg");
     background-repeat: no-repeat;
     background-size: contain;
     position:absolute;
@@ -476,7 +476,7 @@ footer .nav-link:hover {
 
 .youtube {
     position:relative;
-    background-image: url("images/youtube.svg");
+    background-image: url("../images/youtube.svg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 42px;
@@ -486,7 +486,7 @@ footer .nav-link:hover {
 
 .facebookStatic {
     position:relative;
-    background-image: url("images/facebookv2.svg");
+    background-image: url("../images/facebookv2.svg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 42px;
@@ -496,7 +496,7 @@ footer .nav-link:hover {
 
 .twitterStatic {
     position:relative;
-    background-image: url("images/twitterv2.svg");
+    background-image: url("../images/twitterv2.svg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 42px;
@@ -506,7 +506,7 @@ footer .nav-link:hover {
 
 .youtube {
     position:relative;
-    background-image: url("images/youtube.svg");
+    background-image: url("../images/youtube.svg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 42px;
@@ -519,7 +519,7 @@ footer .nav-link:hover {
     width:100%;
     height:100%;
     border-radius: 50%;
-    background-image: url("images/youtubev2.svg");
+    background-image: url("../images/youtubev2.svg");
     background-repeat: no-repeat;
     background-size: contain;
     position:absolute;
