@@ -112,6 +112,38 @@ aside {
     top: 20vh;
 }
 
+.carousel-caption {
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    top: 55%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-light {
+    background-color: #F6C900;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.btn-light:hover {
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    color: #F6C900;
+}
+
+.derniers {
+    font-family: 'Nunito', sans-serif;
+}
+
+
 hr {    
     height: 2px;
     background-color: #333;
@@ -186,6 +218,16 @@ hr {
     font-family: 'Nunito', sans-serif;
 }
 
+.boutons-commentaires:hover {
+    background-color: white;
+    color: #F6C900;
+}
+
+.tags:hover {
+    background-color: white;
+    color: #F6C900;
+}
+
 .petits-tittres {
     color: #F6C900;
     font-family: 'Nunito', sans-serif;
@@ -204,6 +246,7 @@ hr {
 .petits-titres-aside {
     color: white;
     font-weight: bold;
+    text-shadow: 1px 1px 1px #010101;
 }
 
 .titre-article {
