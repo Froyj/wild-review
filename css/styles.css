@@ -22,22 +22,24 @@
     color: #FFFFFF;    
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover  {
     color: #F6C900;
+}
+
+
+@media only screen and (min-width: 992px) {
+    .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link {
+        margin:0 0.8em;
+    }
 }
 
 
 @media only screen and (min-width: 1300px) {
     .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link {
-        font-size: 1.1rem;
+        margin:0 2em;
     }
 }
 
-@media only screen and (min-width: 1600px) {
-    .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link {
-        font-size: 1.3rem;
-    }
-}
 
 
 .dropdown-item, .dropdown-menu {
@@ -111,6 +113,38 @@ aside {
     margin-top: -20vh;
     top: 20vh;
 }
+
+.carousel-caption {
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    top: 55%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-light {
+    background-color: #F6C900;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.btn-light:hover {
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    color: #F6C900;
+}
+
+.derniers {
+    font-family: 'Nunito', sans-serif;
+}
+
 
 hr {    
     height: 2px;
@@ -189,6 +223,16 @@ a:hover {
     font-family: 'Nunito', sans-serif;
 }
 
+.boutons-commentaires:hover {
+    background-color: white;
+    color: #F6C900;
+}
+
+.tags:hover {
+    background-color: white;
+    color: #F6C900;
+}
+
 .petits-tittres {
     color: #F6C900;
     font-family: 'Nunito', sans-serif;
@@ -207,6 +251,7 @@ a:hover {
 .petits-titres-aside {
     color: white;
     font-weight: bold;
+    text-shadow: 1px 1px 1px #010101;
 }
 
 .titre-article {
@@ -279,10 +324,6 @@ footer a {
     text-align: center;
     }
 
-footer a:hover {
-    color: white;
-    }
-
 .menu-footer {
     font-weight: 500;
     font-size: 1.2rem;
@@ -348,12 +389,6 @@ footer .nav-link:hover {
 .contributeur {
     font-family: 'Open Sans', sans-serif;
     color: #f6c900;
-}
-
-.bouton-page-contact {
-    background-color: black;
-    color: #F6C900;
-    font-family: 'Nunito', sans-serif;
 }
 
 .form-control {
