@@ -370,3 +370,126 @@ footer .nav-link:hover {
     margin-left: 20%;
 }
 
+/* Hover social */
+
+.facebook {
+    position:relative;
+    background-image: url("/home/wilder/Project/wild-review/images/facebook.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.facebook:hover::after {
+    content:"";
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    background-image: url("/home/wilder/Project/wild-review/images/facebookv2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.twitter {
+    position:relative;
+    background-image: url("/home/wilder/Project/wild-review/images/twitter.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.twitter:hover::after {
+    content:"";
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    background-image: url("/home/wilder/Project/wild-review/images/twitterv2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.instagram {
+    position:relative;
+    background-image: url("/home/wilder/Project/wild-review/images/instagram.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.instagram:hover::after {
+    content:"";
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    background-image: url("/home/wilder/Project/wild-review/images/instagramv2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.youtube {
+    position:relative;
+    background-image: url("/home/wilder/Project/wild-review/images/youtube.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.facebookStatic {
+    position:relative;
+    background-image: url("/home/wilder/Project/wild-review/images/facebookv2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.twitterStatic {
+    position:relative;
+    background-image: url("/home/wilder/Project/wild-review/images/twitterv2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.youtube {
+    position:relative;
+    background-image: url("/home/wilder/Project/wild-review/images/youtube.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+
+.youtube:hover::after {
+    content:"";
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    background-image: url("/home/wilder/Project/wild-review/images/youtubev2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:absolute;
+    top:0;
+    left:0;
+}
