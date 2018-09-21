@@ -245,6 +245,32 @@ a:hover {
     border: 1px solid #F6C900;
 }
 
+@media only screen and (min-width : 320px) {
+    .card-article {
+        width: 100%;
+    }
+    .titre-article {
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.3rem;
+    }
+    #contact .row {
+        width:100%;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .card-article {
+        width: 75%;
+    }
+    .titre-article {
+        font-family: 'Nunito', sans-serif;
+        font-size: 2rem;
+    }
+    #contact .row {
+        width:75%;
+    }
+}
+
 .texteArticle {
     font-family: 'Open Sans', sans-serif;
     color: #383C42;
@@ -255,11 +281,6 @@ a:hover {
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 1px #010101;
-}
-
-.titre-article {
-    font-family: 'Nunito', sans-serif;
-    font-size: 2rem;
 }
 
 article h5, h4 {
